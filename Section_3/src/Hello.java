@@ -4,7 +4,12 @@ public class Hello {
         System.out.println("Hello, Nhat Ho");
 
         int myFirstNumber = (10 + 5) + (2 * 10);
-        System.out.println(myFirstNumber);
+        int mySecondNumber = 12;
+        int myThirdNumber = myFirstNumber * 2; // = 70
+        int myTotal = myFirstNumber + mySecondNumber + myThirdNumber;
+        System.out.println(myTotal);
+        int myLastOne = myTotal - 1000;
+        System.out.println(myLastOne);
     }
 }
 
