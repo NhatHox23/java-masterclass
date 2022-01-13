@@ -59,18 +59,23 @@ public class Main {
             System.out.println("Greater than second top score and less than 100");
         }
 
-        if ((topScore > 90) || (secondTopScore <= 90)) {
-            System.out.println("Either or both of the conditions are true");
-        }
+        System.out.println("Either or both of the conditions are true");
 
         int newValue = 50;
         if (newValue == 50) {
             System.out.println("This is an error");
         }
 
-        boolean isCar = false;
-        if (!isCar) {
+        boolean isCar = true;
+        if (isCar) {
             System.out.println("This is not supposed to happen");
         }
+
+        boolean wasCar = isCar == true ? true : false;
+        if (wasCar) {
+            System.out.println("wasCar is true");
+        }
+        int ageOfClient = 20;
+        boolean isEightteenOrOver = ageOfClient == 2 ? true : false;
     }
 }
